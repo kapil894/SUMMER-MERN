@@ -25,7 +25,6 @@ const renderUI = (data) => {
         root.innerHTML = `
             <h3>${products[i].title}</h3>
             <img src='${products[i].images[0]}' alt='${products[i].title}'>
-            <p>${products[i].description}</p>
         `;
     }
     
